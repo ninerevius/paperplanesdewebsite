@@ -8,24 +8,25 @@ body {
 h3 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    border-block-end-style: dotted;
 }
 
 h2 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: white;
-    background-color: black;
-    border-radius: 1em;
+    color: black;
+    border-block-end-style: dotted;
+    background-color: white;
+    border-block-start-style: dotted;
 }
 
 h1 {
     text-align: center;
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration-line: underline;
 }
 
-.center {
+.pphdr {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -56,15 +57,16 @@ a {
 }
 
 a:hover {
-    color: pink;
+    color: rgb(219, 243, 250);
 }
 
 a:visited {
-    color: grey;
+    color: darkcyan;
 }
 
 article {
     text-align: center;
+    background-color: rgb(236, 247, 250);
 }
 
 footer {
@@ -75,23 +77,13 @@ footer {
     padding-right: auto;
 }
 
-form {
-    width: 100%;
-    padding: 10px 10px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-    box-sizing: border-box;
-}
-
 ul {
     list-style: none;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #losgig {
-    height: 15em;
+    height: 25em;
 }
 
 #eiffelnight {
@@ -99,13 +91,61 @@ ul {
 }
 
 #calarom {
-    height: 15em;
+    height: 30em;
 }
 
 #pizza {
-    height: 15em;
+    height: 20em;
+}
+
+#cuevas {
+    height: 25em;
+}
+
+#louv {
+    height: 30em;
 }
 
 p {
-    margin: 10%;
+    margin-left: 16%;
+    margin-right: 16%;
+    border-radius: 1em;
+}
+
+#fb {
+    background-color: rgb(219, 243, 250);
+    color: black;
+    border-radius: 1em;
+    font-size: small;
+}
+
+#insta {
+    background-color: rgb(219, 243, 250);
+    color: black;
+    border-radius: 1em;
+    font-size: small;
+}
+
+.pSM {
+    background-color: black;
+}
+
+ul {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+form {
+    text-align: left;
+    display: grid;
+    height: 20%;
+    width: 30%;
+    margin-left: 35%;
+    padding-top: 5%;
+}
+
+input {
+    background-color: rgb(219, 243, 250);
 }
