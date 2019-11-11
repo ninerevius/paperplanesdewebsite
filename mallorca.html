@@ -8,23 +8,23 @@
 </head>
 
 <body>
+    <header>
+        <a href="index.html">
+            <img class="pphdr" src="fotosvoorweb/header.jpg" alt="Logo paper planes">
+        </a>
+        <h1>Mallorca</h1><img class="ppr" src="fotosvoorweb/paperplane.jpg" alt="paperplane">
+        <nav class="navigate">
+            <ul>
+                <li><a href="#LMV">Last minute vakantie</a></li>
+                <li><a href="#CM">Cala Millor</a></li>
+                <li><a href="#LT">Lekker toeristisch</a></li>
+                <li><a href="#CDD">Cuevas del Drach</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <header>
-            <a href="homepage.html">
-                <img class="paperplanes" src="fotosvoorweb/header.jpg" alt="Logo paper planes">
-            </a>
-            <h1>Mallorca</h1><img class="paperplane" src="fotosvoorweb/paperplane.jpg" alt="paperplane">
-            <section class="navigate">
-                <ul>
-                    <li><a href="#LMV">Last minute vakantie</a></li>
-                    <li><a href="#CM">Cala Millor</a></li>
-                    <li><a href="#LT">Lekker toeristisch</a></li>
-                    <li><a href="#CDD">Cuevas del Drach</a></li>
-                </ul>
-            </section>
-        </header>
         <article>
-            <section id=LMV>
+            <nav id=LMV>
                 <h2>Last minute vakantie</h2>
                 <p>
                     Mallorca was een heerlijke vakantie waarin we veel hebben ondernomen. Mallorca heb ik last minute via een site geboekt en een kleine anderhalve week later zat ik in het vliegtuig met een vriendin. Het was een korte vakantie van maar liefst 5 dagen.
@@ -34,11 +34,10 @@
                     opgeteld zo een 2,5 uurtjes afhankelijk van de wind natuurlijk.
                 </p>
                 <img id="calarom" src="fotosvoorweb/calaromantica.jpg" alt="rotsen van cala romantica">
-            </section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d393420.8103336438!2d2.6314672165152975!3d39.61369047856888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297b8766606c129%3A0xb7eb9bff02d2ecc0!2sMajorca!5e0!3m2!1snl!2snl!4v1573291598345!5m2!1snl!2snl"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+            </nav>
+            <iframe id="mallmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d393420.8103336438!2d2.6314672165152975!3d39.61369047856888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297b8766606c129%3A0xb7eb9bff02d2ecc0!2sMajorca!5e0!3m2!1snl!2snl!4v1573291598345!5m2!1snl!2snl">
         </iframe>
-            <section id="CM">
+            <nav id="CM">
                 <h2>Cala Millor</h2>
                 <p>
                     Eenmaal aangekomen in Mallorca hebben we de bus gepakt naar het hotel, wat een kleine 5 minuten lopen was naar het strand. Gelukkig was onze hotelkamer vrijwel direct gereed en konden we ons meteen omkleden om vervolgens onze handdoekjes op het strand
@@ -50,8 +49,8 @@
                     heerlijke pasta met kreeft mogen eten en hebben we genoten van cocktails aan de kust. De eerste avond waren we ook nog best moe dus hebben we het wat rustig aan gedaan en rondgelopen in het gebied voor de zon onder zou gaan. Het is
                     een prachtige omgeving met de heldere blauwe oceaan en alle rotsen die reiken tot in de verte.
                 </p>
-            </section>
-            <section id="LT">
+            </nav>
+            <nav id="LT">
                 <h2>Lekker toeristisch</h2>
                 <p>
                     Dag twee zijn we op een boottocht gegaan, heerlijk toeristisch. De boot had een glazen boden waardoor je de vissen technisch gezien zou kunnen zien. Dat viel een beetje tegen in mijn verwachtingen was het allemaal wat mooier omdat
@@ -65,8 +64,8 @@
                     Uiteindelijk was het alweer tijd om terug gegaan met de boot en hebben we die avond heerlijk wederom weer cocktails gedronken aan het water. Vervolgens zijn we wat barretjes ingegaan en kan ik me weinig meer herinneren wat er verder
                     <br> allemaal gebeurd is, wel dat het heel erg leuk was.
                 </p>
-            </section>
-            <section id="CDD">
+            </nav>
+            <nav id="CDD">
                 <h2>Cuveas del Drach</h2>
                 <img id="cuevas" src="fotosvoorweb/cuevaseldrach.jpg" alt="Foto van de grotten van Cuevas del Drach">
                 <p>
@@ -74,10 +73,10 @@
                     een meer waar je met een bootje kon varen. Als extraatje was er in de grotten een tribune gemaakt waar we met z’n allen konnen luisteren naar een boot met daarin muzikanten die klassieke muziek speelde. De akoestiek in de grotten was
                     prachtig. Een zeer zekere aanrader.
                 </p>
-            </section>
+            </nav>
 
         </article>
-        <iframe width="600" height="450" src="https://www.youtube.com/embed/1wKNG0GJPvg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        <iframe class="vid" src="https://www.youtube.com/embed/1wKNG0GJPvg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
     </main>
     <footer>
@@ -85,11 +84,11 @@
             Naam:
             <input class="form-input" type="text" name="name"> E-mail:
             <input class="form-input" type="text" name="mail">Vraag:
-            <textarea class="form-input" name="comments">Talk to me!</textarea>
+            <textarea class="form-input" name="comments">Stel me een vraag!</textarea>
             <input class="button" type="submit" value="Send">
         </form>
-        <p class="pSM"><a id="fb" href="https://www.facebook.com/ninee.revius">Nine on Facebook</a></p>
-        <p class="pSM"><a id="insta" href="https://www.instagram.com/ninemichella/">Nine on Instagram</a></p>
+        <p class="pSM"><a id="fb" href="https://www.facebook.com/ninee.revius">Nine@Facebook</a></p>
+        <p class="pSM"><a id="insta" href="https://www.instagram.com/ninemichella/">Nine@Instagram</a></p>
         <h4>2019&copy;Nines.Travels</h4>
     </footer>
 </body>
